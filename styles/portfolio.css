@@ -24,12 +24,17 @@
   color: #ffffff;
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 /* Main Style */
 
 header {
   background-color: #fff8f3;
+  background: url("../images/developer.png"), url("../images/header_bg.png"),
+    #fff8f3;
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
   padding-top: 50px;
 }
 
@@ -54,4 +59,40 @@ nav .menu a {
   font-size: 20px;
   color: #474747;
   text-decoration: none;
+}
+
+#banner {
+  /* border: 2px solid red; */
+  margin: 46px 38px 0 199px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#banner .banner-content {
+  max-width: 585px;
+}
+
+#banner .banner-content h2 {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+#banner .banner-content h1 {
+  color: #181818;
+  font-size: 85px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#banner .banner-content p {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400px;
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+#banner .banner-image img {
+  max-width: 585px;
+  vertical-align: middle;
 }
